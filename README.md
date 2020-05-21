@@ -1,2 +1,0 @@
-# dandelion-proj
-MEVN starter 
