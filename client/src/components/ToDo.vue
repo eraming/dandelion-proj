@@ -11,15 +11,18 @@
 
 <script>
 import ToDoAPI from '@/services/ToDoAPI.js'
+
 export default {
   data () {
     return {
       todos: []
     }
   },
+
   mounted () {
     this.loadTodos()
   },
+
   methods: {
     async loadTodos () {
       const response = await ToDoAPI.getToDos()
