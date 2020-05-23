@@ -1,7 +1,12 @@
 <template>
   <div id="employee-table">
     <table>
-      <!-- ...thead... -->
+      <thead>
+         <tr>
+           <th>Employee name</th>
+           <th>Employee email</th>
+         </tr>
+       </thead>
     <tbody>
       <tr v-for="employee in employees" :key="employee.id">
         <td>{{ employee.name }}</td>

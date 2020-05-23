@@ -10,13 +10,13 @@
 
 <script>
   import EmployeeTable from '@/components/EmployeeTable.vue'
-  // import EmployeeForm from '@/components/EmployeeForm.vue'
+  import EmployeeForm from '@/components/EmployeeForm.vue'
 
   export default {
     name: 'app',
     components: {
       EmployeeTable,
-      // EmployeeForm,
+      EmployeeForm,
     },
     data() {
    return {
